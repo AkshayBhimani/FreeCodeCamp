@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+
+    margin: 100px;
+    background-color: #000;
+    color : white ;   
+    font-size: 30px  ;
+
+}
+
+div{
+    margin-bottom: 20px;
+}
+
+
+#name, #number, #email {
+    margin-top: 10px;
+    
+    width: 20%;
+    height: 40px;
+}
+
+#radio-div, #dropdown {
+    font-size: 20px;
+}
+
+textarea{
+    width: 25%;
+    height: 70px;
+}
+   
+button{
+    width: 15%;    
+    height: 30px;
+    font-size: large;
+}
+

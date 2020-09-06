@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="stylesheet.css">
+       <title> Survey </title>
+</head>
+<body>
+    <h1 id="title"> Suvey Form </h1>
+    <p id="description"> This is a survey form for FreeCodeCamp </p>
+    <form id="survey-form">
+        <div >
+            <label id="name-label">Name</label> <br>
+            <input type="text" id="name" placeholder="Enter your Name"   required />
+        </div>
+        <div >
+            <label id="email-label"> E-mail </label><br>
+            <input type="email" id="email" placeholder="Enter your email" required />
+        </div>
+        <div>
+            <label id="number-label"> Age </label><br>
+            <input type="number" id="number" min="18" max="60" placeholder="Enter your age" required >
+        </div>
+        <div id="dropdown-div">
+            <label id="dropdown-label">Enter your current status</label><br>
+            <select id="dropdown" required>
+            <option disabled >
+                your status
+            </option>
+            <option >
+                Student
+            </option>
+            <option>
+                Employee
+            </option>
+            <option>
+                Homemaker
+            </option>
+            <option>
+                Entreprenuer
+            </option>
+            <option>
+                Prefer not to say
+            </option>
+            </select>
+        </div>
+        <div id="radio-div">
+            <label id="radio-label"> Gender </label><br>
+            <label><input type="radio" name="male" value="male"/> Male </label><br>
+            <label><input type="radio" name="male" value="female"/> Female </label><br>
+            <label><input type="radio" name="male" value="other"/> Others </label><br>
+        </div>
+        <div id="checkbox">
+        <label id="checkbox-label"> Programming Languages known </label><br>
+            <label><input type="checkbox" value="c++"/> C++ </label><br>
+            <label><input type="checkbox" value="java" /> JAVA </label><br>
+            <label><input type="checkbox" value="javascript" /> JAVASCRIPT </label><br>
+            <label><input type="checkbox" value="python" /> PYTHON </label><br>
+            <label><input type="checkbox" value="c#" /> C# </label><br>
+        </div>
+        <div>
+            <label> Any comments or feedback : </label><br>
+            <textarea id="comment" placeholder="Enter your comments here"></textarea>
+        </div>
+        <div class="form-group">
+            <button type="submit" id="submit" class="submit-button">
+              Submit
+            </button>
+        </div>
+        
+    </form>
+
+</body>
+
+</html>
