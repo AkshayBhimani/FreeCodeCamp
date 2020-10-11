@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" >
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="stylesheet.css">
+        <title> Technical documentation page </title>
+    </head>
+    <body>
+        
+        <nav id="navbar">
+            <header>HTML</header>
+            <ul>
+                <li>  <a class="nav-link" href="#Introduction">Introduction</a></li>
+                <li><a class="nav-link" href="#Web_pages_&_Websites">Web pages & Websites</a> </li>
+                <li> <a class="nav-link" href="#Tags_in_HTML"> Tags in HTML</a></li>
+                <li> <a class="nav-link" href="#Hello_World"> Hello World</a></li>
+                <li><a class="nav-link" href="#Page_Structure"> Page Structure </a></li>
+                <li></li>
+                <!-- <li> <a class="nav-link" href=""></a></li>
+                <li> <a class="nav-link" href=""></a></li>
+                <li> <a class="nav-link" href=""></a></li> --> 
+            </ul>
+        </nav>
+        <main id="main-doc">
+
+            <section class="main-section" id="Introduction">
+                <header id="Intoduction">Introduction</header>
+                <li> HTML stands for Hyper Text Markup Language </li>
+                <p>                     
+                    HTML is the standard markup language for creating Web pages and 
+                    the most basic building block of the Web.
+                    It defines the meaning and structure of web content. 
+                </p>
+                <p>
+                    "Hypertext" refers to links that connect web pages to one another, 
+                    either within a single website or between websites. 
+                    Links are a fundamental aspect of the Web.
+                    By uploading content to the Internet and linking it to pages created by other people,
+                    you become an active participant in the World Wide Web.
+                </p>
+                
+            
+            </section>
+            <section class="main-section" id="Web_pages_&_Websites">
+                <header id="Web_pages_&_Websites">Web pages & Websites</header>
+                <p>
+                    A web page is a simple document displayable by a browser and 
+                    website collection of linked web pages that share unique domain name
+                </p>
+                <p>
+                    Web pages are mainly written using
+                    <li>HTML</li>
+                    <li>CSS(Casceding stylesheet)</li>
+                    <li>Javascript</li>
+
+                </p>
+                  
+            </section>
+            <section class="main-section" id="Tags_in_HTML">
+                <header id="Tags_in_HTML">Tags in HTML</header>
+                
+                HTML uses tages to define type of content in that elements.
+                    <br>
+                    <img src="https://media.prod.mdn.mozit.cloud/attachments/2014/11/14/9347/c07aa313dbdd667585430f4eca354dbd/grumpy-cat-small.png" alt="Tag-structure in html" >
+                    
+                    <li>The opening tag: 
+                        <p> 
+                            This consists of the name of the element
+                            (in this example, p for paragraph), wrapped in opening and closing angle brackets.
+                            This opening tag marks where the element begins or starts to take effect.
+                            If you wants to give some characterstics to your element like color and size.  
+                        </p>
+                    </li>
+                    <li>The content:
+                        <p>
+                            This is where main content of the element is written i.e. in content are generally 
+                            paragraph,topics, etc. are written. Contents can have child elements like p, h1, etc. 
+                        </p>
+                    </li>
+                    <li>The closing tag:
+                        <p>
+                            This is the same as the opening tag, except that it includes a forward slash before the element name.
+                            This marks where the element ends.
+                        </p>
+                    </li>
+                
+                
+                
+
+
+               <h4>Some fundamental HTML tags are:</h4>
+                <ol>
+                    <li><code>&lt;!DOCTYPE html ></code> &ensp; : Is defines that the document is HTML5 documentation </li>
+                    <li><code>&lt;HTML></code>  &ensp; : element is the root element of an HTML page</li>
+                    <li><code>&lt;head> </code>  &ensp; : Contains meta information of pages.</li>
+                    <li><code>&lt;title></code>  &ensp; : Specifies title for HTML page. Which shows in page's  tab
+                    <li><code>&lt;body></code> &ensp; : It defines document's body.</li>
+                    <li><code>&lt;h1></code>  &ensp; : Defines a large heading.</li>
+                    <li><code>&lt;p></code> &ensp; : element defines a paragraph.</li>
+                    <li><code>&lt;section></code>  &ensp; : Defines new Section.</li>
+
+                </ol>
+                
+            </section>
+            <section class="main-section" id="Hello_World">
+                <header id="Hello_World">Hello World</header>
+                <div>
+                    
+                    <textarea readonly>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Hello HTML World </title>
+    </head>
+    <body>
+        <h1> Hello Web-Dev World :) </h1>
+        <p> This is a paragraph tag. </p>
+
+    </body>
+</html>
+
+                    </textarea>
+                    <div id="outp"> 
+                        <p> &ensp; &ensp;  Output </p>
+                        <p> &ensp; &ensp;  =====> </p>
+                    </div> 
+                    <img id="hellow-img" src="/helloWorld.png" alt="Hello World Output">
+
+
+
+                </div>
+
+              
+                    
+            </section>
+            <section class="main-section" id="Page_Structure">
+                <header id="Page_Structure">Page Structure</header>
+                <h4>Below is a visualization of an HTML page structure:</h4>
+                <img src="/page-structure.png" alt="Page_Structure">
+                <p>
+                    This is the basic struture of html that how page will look like
+                    Only content inside body tag(i.e. white area) will display on browser. 
+                    The head element is a container for metadata (data about data) and is placed 
+                    between the html tag and the body tag.
+                    HTML metadata is data about the HTML document. Metadata is not displayed.                 
+                    Metadata typically define the document title, character set, styles, scripts, and other meta information.
+                </p>
+            </section>
+        </main>
+    </body>
+
+</html>
